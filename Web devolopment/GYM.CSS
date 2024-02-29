@@ -1,0 +1,127 @@
+body {
+    background: url("gym.jpg");
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    /* background-repeat: no-repeat; */
+}
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    height: 60px;
+    width: invert(100px);
+}
+.left div{
+    line-height: 19px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+.mid {
+    display: block;
+    /* border: 2px solid green; */
+    width: 60%;
+    margin: 30px auto;
+    text-align: center;
+}
+.right {
+    /* border: 2px solid blue; */
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 22px;
+
+}
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    padding: 34px 23px;
+    font-size: 25px;
+}
+.navbar li a:hover , .navbar li a.active{
+text-decoration: underline;
+color: white;
+}
+.btn{
+    font-family: cursive;
+    font-size: 18px;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    padding: 5px 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+.btn:hover{
+    background-color: brown;
+}
+.container {
+    font-family: cursive;
+}
+.container h1{
+    text-align: center;
+    color: red
+}
+.container button{
+    display: block;
+    width: 75%;
+}
+.form-group input{
+    font-family: cursive;
+    text-align: center;
+    display: block;
+    width: auto;
+    padding: 2px;
+    margin: 11px auto;
+    border-radius: 8px;
+}
+.container button{
+    display: block;
+    width: 10%;
+    margin: 10px auto;
+}
+#about {
+    background-color: #f8f9fa;
+    padding: 40px;
+  }
+  
+  #about h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  #about ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #about li {
+    margin-bottom: 30px;
+  }
+  
+  #about h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  #about p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
